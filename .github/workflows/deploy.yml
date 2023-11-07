@@ -4,7 +4,7 @@ name: Deploy VitePress site to Pages
 on:
   push:
     tags:
-      - '*'
+      - 'main'
 
   workflow_dispatch:
 
