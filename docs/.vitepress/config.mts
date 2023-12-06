@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
+  base: '/jll-sdk-docs',
   title: "剧乐乐SDK文档",
   description: "剧乐乐SDK文档使用介绍",
-  head: [['link', { rel: 'icon', href: '/logo.png' }]],
+  // head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
     search: {
       provider: 'local'
     },
-    logo: '/logo.png',
+    logo: '/images/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
