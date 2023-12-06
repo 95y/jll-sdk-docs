@@ -5,25 +5,46 @@ export default defineConfig({
   base: '/jll-sdk-docs',
   title: "剧乐乐SDK文档",
   description: "剧乐乐SDK文档使用介绍",
+  // head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+    // logo: '/images/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '示例', link: '/markdown-examples' },
+      { text: 'API', link: '/api-examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '开始',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '简介', link: '/introduction' },
+          { text: '环境', link: '/env' },
+          { text: '初始化', link: '/init' },
+          { text: '沙盒环境获取角色列表', link: '/script-role-list' },
+          { text: '全局自定义变量', link: '/global' },
+          { text: '角色自定义变量', link: '/role' },
+          { text: '消息相关', link: '/message' },
+          { text: '辅助方法', link: '/other' },
+          // { text: 'Markdown Examples', link: '/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
-
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
+
+
+
+
