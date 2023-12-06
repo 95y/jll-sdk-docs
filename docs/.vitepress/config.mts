@@ -5,12 +5,12 @@ export default defineConfig({
   base: '/jll-sdk-docs',
   title: "剧乐乐SDK文档",
   description: "剧乐乐SDK文档使用介绍",
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
     search: {
       provider: 'local'
     },
-    logo: '/images/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
