@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "剧乐乐SDK文档"
-  # text: "剧乐乐SDK文档使用介绍"
+  name: "SDK文档"
+  # text: "SDK文档使用介绍"
   tagline: 快速接入SDK，开发自己的剧本机制~
   actions:
     - theme: brand

@@ -3,16 +3,16 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/jll-sdk-docs',
-  title: "剧乐乐SDK文档",
+  title: "SDK文档",
   lastUpdated: true,
-  description: "剧乐乐SDK文档使用介绍",
-  head: [['link', { rel: 'icon', href: '/jll-sdk-docs/images/favicon.ico' }]],
+  description: "SDK文档使用介绍",
+  // head: [['link', { rel: 'icon', href: '/jll-sdk-docs/images/favicon.ico' }]],
   themeConfig: {
     lastUpdatedText: '最近更新时间',
     search: {
       provider: 'local'
     },
-    logo: '/images/logo.png',
+    // logo: '/images/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },

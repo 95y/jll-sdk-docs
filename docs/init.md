@@ -3,7 +3,7 @@
 
 
 ### 初始化SDK
-引入剧乐乐SDK后，必须先执行 `jll.init(token)`
+引入SDK后，必须先执行 `jll.init(token)`
 | 参数 | 类型 | 说明 |
 | --- | --- | --- |
 | token | String | 角色的Token |
