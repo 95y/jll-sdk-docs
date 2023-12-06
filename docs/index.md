@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /introduction
     - theme: alt
       text: API 文档
-      link: /api-examples
+      link: /introduction
 
 features:
   - title: 🤩 透传方式

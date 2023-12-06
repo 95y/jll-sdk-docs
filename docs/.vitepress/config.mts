@@ -14,8 +14,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '示例', link: '/markdown-examples' },
-      { text: 'API', link: '/api-examples' }
+      // { text: '示例', link: '/markdown-examples' },
+      { text: 'API', link: '/global' }
     ],
 
     sidebar: [
@@ -40,7 +40,7 @@ export default defineConfig({
       next: '下一篇',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/95y/jll-sdk-docs' }
     ]
   }
 })
