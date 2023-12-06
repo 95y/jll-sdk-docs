@@ -31,6 +31,7 @@ export default defineConfig({
           { text: '角色自定义变量', link: '/role' },
           { text: '消息相关', link: '/message' },
           { text: '辅助方法', link: '/other' },
+          { text: 'cli脚手架', link: '/cli' },
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
