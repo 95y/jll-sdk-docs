@@ -6,7 +6,7 @@ export default defineConfig({
   title: "剧乐乐SDK文档",
   lastUpdated: true,
   description: "剧乐乐SDK文档使用介绍",
-  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/jll-sdk-docs/images/logo.png' }]],
   themeConfig: {
     lastUpdatedText: '最近更新时间',
     search: {
