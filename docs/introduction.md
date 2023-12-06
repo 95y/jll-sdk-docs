@@ -3,6 +3,7 @@
 ## H5开发流程 
 一.开发游戏阶段:  
 1) 在[柒巧空间](https://cspace.you-drama.com/#/user/login)上传剧本，得到一个 `剧本key`。同时上传剧本所需的角色列表  
+![获取剧本key](https://osslarp.oss-cn-shenzhen.aliyuncs.com/pingxingshu/sdk_demo/image.png)
 2) 通过柒巧空间得到的key调用SDK的初始化 `initData` 接口, 返回角色列表  
 `roleId`  -- `roleName` -- `roleToken`
 3) 开发者根据自己剧本的角色 `roleId`，角色 `token`, 操作自定义的变量  
