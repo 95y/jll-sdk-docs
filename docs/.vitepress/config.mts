@@ -6,7 +6,7 @@ export default defineConfig({
   title: "剧乐乐SDK文档",
   lastUpdated: true,
   description: "剧乐乐SDK文档使用介绍",
-  head: [['link', { rel: 'icon', href: '/jll-sdk-docs/images/logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/jll-sdk-docs/images/favicon.ico' }]],
   themeConfig: {
     lastUpdatedText: '最近更新时间',
     search: {
@@ -16,7 +16,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      // { text: '示例', link: '/markdown-examples' },
       { text: 'API', link: '/global' }
     ],
 
