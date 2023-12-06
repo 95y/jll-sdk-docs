@@ -16,7 +16,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: 'API', link: '/global' }
+      { text: 'API', link: '/global' },
+      { text: 'CLI脚手架', link: '/cli' }
     ],
 
     sidebar: [
@@ -31,7 +32,7 @@ export default defineConfig({
           { text: '角色自定义变量', link: '/role' },
           { text: '消息相关', link: '/message' },
           { text: '辅助方法', link: '/other' },
-          { text: 'cli脚手架', link: '/cli' },
+          // { text: 'cli脚手架', link: '/cli' },
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
