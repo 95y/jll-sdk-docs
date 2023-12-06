@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/jll-sdk-docs',
+  base: '/',
   title: "剧乐乐SDK文档",
   description: "剧乐乐SDK文档使用介绍",
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
