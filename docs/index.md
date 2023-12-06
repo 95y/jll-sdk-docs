@@ -19,7 +19,9 @@ features:
     details: 数据格式由客户端自己定义
   - title: 🚀 快速
     details: 无需额外开发接口，现接现用
-  - title: ⭐️ “想到再填写”
-    details: 暂时还没想好文案
+  - title: ⭐️ Demo
+    details: Vue 2.x Demo
+    link: https://osslarp.oss-cn-shenzhen.aliyuncs.com/pingxingshu/sdk_demo/sdk-demo.zip
+    linkText: 点击下载
 ---
 
