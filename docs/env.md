@@ -29,9 +29,10 @@ console.log(jll)
 
 ### script标签引入示例 - `iife版本`
 ``` javascript
-<script src="/plugins/jllsdk.iife.min_3.0.0.test.js"></script>
-// or
-<script src="/plugins/jllsdk.iife.min_3.0.0_prod.js"></script>
+// 测试环境
+<script src="https://osslarp.oss-cn-shenzhen.aliyuncs.com/common/sdk/jllsdk.iife.min_v3.0.0_test.js"></script>
+// 正式环境
+<script src="https://osslarp.oss-cn-shenzhen.aliyuncs.com/common/sdk/jllsdk.iife.min_v3.0.0_prod.js"></script>
 
 <script>
 // 打印出 jll 下的所有方法~
