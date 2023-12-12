@@ -54,7 +54,7 @@ console.log('getRoleData', getRoleData);
 | key | String | 获取对象下的某个值，例如：ROLE_DATA.role |
 
 ``` javascript
-// `ROLE_DATA` 获取 ROLE_DATA 下的 global 值
+// `ROLE_DATA` 获取 ROLE_DATA 下的 role 值
 const getRoleData = await jll.getRoleValue(roleId, 'ROLE_DATA.role')
 console.log('getRoleData', getRoleData); // 2
 ```
@@ -134,7 +134,7 @@ console.log('response_1', response_1);
 }
 ```
 
-## setGlobalValueSub(roleId, key, value, min)
+## setRoleValueSub(roleId, key, value, min)
 #### 更新角色自定义变量指定值，自减，多人同时竞争一个东西时，可以使用
 | 参数 | 类型 | 说明 |
 | --- | --- | --- |

@@ -28,6 +28,7 @@ export default defineConfig({
           { text: '环境', link: '/env' },
           { text: '初始化', link: '/init' },
           { text: '沙盒环境获取角色列表', link: '/script-role-list' },
+          { text: '获取所有自定义变量', link: '/get-all-data' },
           { text: '全局自定义变量', link: '/global' },
           { text: '角色自定义变量', link: '/role' },
           { text: '消息相关', link: '/message' },
