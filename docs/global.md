@@ -19,6 +19,44 @@ const globalRes = await jll.initGlobalData(
 console.log('globalRes', globalRes);
 ```
 
+## batchInitGlobal(paramList)
+#### 批量初始化全局变量
+| 参数 | 类型 | 说明 |
+| --- | --- | --- |
+| paramList | Array | 批量初始化的数据 |
+``` javascript
+/**
+ * 批量初始化全局变量 
+ * 批量初始化多个bizFields的数据
+ * @param paramList: 批量初始化的数据
+ **/
+const paramList = [
+	{bizFields: 'Global_1', bizContent: {textVal: 1}},
+	{bizFields: 'Global_2', bizContent: {textVal: 2}},
+]
+const globalRes = await jll.batchInitGlobal(paramList)
+console.log('globalRes', globalRes);
+```
+
+## batchGlobal(paramList)
+#### 批量修改全局变量
+| 参数 | 类型 | 说明 |
+| --- | --- | --- |
+| paramList | Array | 批量初始化的数据 |
+``` javascript
+/**
+ * 批量修改全局变量 
+ * 批量修改多个bizFields的数据
+ * @param paramList: 批量初始化的数据
+ **/
+const paramList = [
+	{bizFields: 'Global_1', bizContent: {textVal: 1}},
+	{bizFields: 'Global_2', bizContent: {textVal: 2}},
+]
+const globalRes = await jll.batchGlobal(paramList)
+console.log('globalRes', globalRes);
+```
+
 ## getGlobalData(bizFields)
 #### 获取全局自定义变量
 | 参数 | 类型 | 说明 |

@@ -63,3 +63,9 @@ console.log(getGenerateId);
 	"data": [1143]
 }
 ```
+## getRoleInfo()
+获取当前角色信息
+
+## appBack()
+小程序、App退出webview
+

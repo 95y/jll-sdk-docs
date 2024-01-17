@@ -20,6 +20,45 @@ const roleRes = await jll.initRoleData(
 )
 console.log('roleRes', roleRes);
 ```
+
+## batchInitRole(paramList)
+#### 批量初始化角色变量
+| 参数 | 类型 | 说明 |
+| --- | --- | --- |
+| paramList | Array | 批量初始化的数据 |
+``` javascript
+/**
+ * 批量初始化角色变量 
+ * 批量初始化多个bizFields的数据
+ * @param paramList: 批量初始化的数据
+ **/
+const paramList = [
+	{roleId: 10001, bizFields: 'Role_1', bizContent: {textVal: 1}},
+	{roleId: 10001, bizFields: 'Role_2', bizContent: {textVal: 2}},
+]
+const roleRes = await jll.batchInitRole(paramList)
+console.log('roleRes', roleRes);
+```
+
+## batchRole(paramList)
+#### 批量修改角色变量
+| 参数 | 类型 | 说明 |
+| --- | --- | --- |
+| paramList | Array | 批量初始化的数据 |
+``` javascript
+/**
+ * 批量修改角色变量 
+ * 批量修改多个bizFields的数据
+ * @param paramList: 批量初始化的数据
+ **/
+const paramList = [
+	{roleId: 10001, bizFields: 'Role_1', bizContent: {textVal: 1}},
+	{roleId: 10001, bizFields: 'Role_2', bizContent: {textVal: 2}},
+]
+const roleRes = await jll.batchRole(paramList)
+console.log('roleRes', roleRes);
+```
+
 ## getRoleData(roleId, bizFields)
 #### 获取角色自定义变量
 | 参数 | 类型 | 说明 |
