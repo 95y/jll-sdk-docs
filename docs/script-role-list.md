@@ -62,6 +62,7 @@ console.log(roleList);
 		"roleNickName": "DM"
 	}
 	...
-	]
+	],
+	"simulateFlag": false
 }
 ```
